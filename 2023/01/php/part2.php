@@ -1,6 +1,6 @@
 <?php
 
-$lines = explode("\n", file_get_contents("input.txt"));
+$lines = explode("\n", file_get_contents("../input.txt"));
 $newlines = 0;
 $numbermatch = '(zero|one|two|three|four|five|six|seven|eight|nine|ten|\d)';
 $numberswap = array_flip(['zero','one','two','three','four','five','six','seven','eight','nine']);

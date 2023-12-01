@@ -1,6 +1,6 @@
 <?php
 
-$lines = explode("\n", file_get_contents("input.txt"));
+$lines = explode("\n", file_get_contents("../input.txt"));
 $newlines = 0;
 foreach ($lines as $D) {
     $start = [];
