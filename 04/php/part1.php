@@ -15,10 +15,7 @@ foreach ($lines as $row=>$line) {
         }
     }
     if ($wins>0) {
-        print "$card]$wins: " . str_pad("1", $wins, "0") . "  " . bindec(str_pad("1", $wins, "0")) . "\n";
         $total += bindec(str_pad("1", $wins, "0"));
-    } else {
-        print "0 wins\n";
     }
 }
 var_dump($total);
