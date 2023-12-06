@@ -1,0 +1,5 @@
+{
+    "phpunit.command": "",
+    "phpunit.php": "e:\\php\\php.exe",
+    "phpunit.phpunit": "f:\\dropbox\\swap\\adventofcode\\vendor\\bin\\phpunit"
+}
